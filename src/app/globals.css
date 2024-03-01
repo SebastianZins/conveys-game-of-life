@@ -12,7 +12,7 @@
     :root {
         --foreground-rgb: 255, 255, 255;
         --background-start-rgb: 0, 0, 0;
-        --background-end-rgb: 60, 60, 60;
+        --background-end-rgb: 66, 66, 66;
     }
 }
 
@@ -25,7 +25,7 @@ body {
             transparent,
             rgb(var(--background-end-rgb))
         )
-        rgb(var(--background-start-rgb));
+        rgb(var(--background-end-rgb));
 }
 
 @layer utilities {
