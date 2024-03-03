@@ -10,8 +10,8 @@ import drawFrame from './drawFrame';
 function Grid() {
     const canvasRef = useRef<HTMLCanvasElement | null>(null);
 
-    const height = 500;
-    const width = 800;
+    const height = 800;
+    const width = 1200;
 
     const cellSize = 2;
 
@@ -70,7 +70,7 @@ function Grid() {
             ref={canvasRef}
             width={width}
             height={height}
-            className='bg-black'
+            className='bg-black rounded-l-lg p-2'
         />
     );
 }
